@@ -1,0 +1,14 @@
+v0.5: [krok 5]
+  * Poprawienie nieprzechodzących kroków scenariusza - finalna implementacja klasy MyStack, której zachowanie opisane jest w historyjce użytkownika oraz specyfikacji klasy
+v0.4: [krok 4 - poziom aplikacji]
+  * Dodanie brakujących definicji kroków scenariuszy (krok ten może być też wykonany przed etapem specyfikacji obiektu, wtedy w tym kroku należy utwożyć klasę z pustymi metodami)
+v0.3: [krok 3 - poziom obiektów]
+  * Dodanie implementacji poszczególnych metod stosu, wyspecyfikowanych w klasie EmptyStackBehaviour
+v0.2: [krok 2 - poziom obiektów]
+  * Specyfikacja pustego stosu - klasa EmptyStackBehaviour
+  * Utworzenie klasy MyStack<T> wraz z potrzebnymi metodami (bez implementacji)
+v0.1.1: [krok 1a - poziom aplikacji]
+  * Dodanie pustej klasy StackSteps, w której definiowane będą poszczególne kroki scenariuszy
+v0.1: [krok 1 - poziom aplikacji]
+  * Utworzenie historyjki użytkownika 'push_to_a_stack'
+  * Stworzenie klasy Java odpowiadającej scenariuszowi

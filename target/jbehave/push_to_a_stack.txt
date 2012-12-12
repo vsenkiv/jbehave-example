@@ -1,0 +1,110 @@
+Feature:                                                                                                                                                     
+In order to store values
+As a user
+I want to put items on the stack
+(push_to_a_stack.story)
+Scenario: Push to an empty stack
+Given an empty stack with capacity 2 (PENDING)
+When I push "first" to a stack (PENDING)
+Then "first" should be on top of the stack (PENDING)
+@Given("an empty stack with capacity 2")
+@Pending
+public void givenAnEmptyStackWithCapacity2() {
+  // PENDING
+}
+
+@When("I push \"first\" to a stack")
+@Pending
+public void whenIPushfirstToAStack() {
+  // PENDING
+}
+
+@Then("\"first\" should be on top of the stack")
+@Pending
+public void thenfirstShouldBeOnTopOfTheStack() {
+  // PENDING
+}
+
+
+Scenario: Push to a full stack
+Given an empty stack with capacity 2 (PENDING)
+And "first" pushed on the stack (PENDING)
+And "second" pushed on the stack (PENDING)
+When I push "third" to a stack (PENDING)
+Then FullStackException should be thrown (PENDING)
+@Given("an empty stack with capacity 2")
+@Pending
+public void givenAnEmptyStackWithCapacity2() {
+  // PENDING
+}
+
+@Given("\"first\" pushed on the stack")
+@Pending
+public void givenfirstPushedOnTheStack() {
+  // PENDING
+}
+
+@Given("\"second\" pushed on the stack")
+@Pending
+public void givensecondPushedOnTheStack() {
+  // PENDING
+}
+
+@When("I push \"third\" to a stack")
+@Pending
+public void whenIPushthirdToAStack() {
+  // PENDING
+}
+
+@Then("FullStackException should be thrown")
+@Pending
+public void thenFullStackExceptionShouldBeThrown() {
+  // PENDING
+}
+
+
+Scenario: Push to nonempty and non full stack
+Given an empty stack with capacity 3 (PENDING)
+And "first" pushed on the stack (PENDING)
+And "second" pushed on the stack (PENDING)
+When I push "third" to a stack (PENDING)
+Then "third" should be on top of the stack (PENDING)
+And the stack should be full (PENDING)
+@Given("an empty stack with capacity 3")
+@Pending
+public void givenAnEmptyStackWithCapacity3() {
+  // PENDING
+}
+
+@Given("\"first\" pushed on the stack")
+@Pending
+public void givenfirstPushedOnTheStack() {
+  // PENDING
+}
+
+@Given("\"second\" pushed on the stack")
+@Pending
+public void givensecondPushedOnTheStack() {
+  // PENDING
+}
+
+@When("I push \"third\" to a stack")
+@Pending
+public void whenIPushthirdToAStack() {
+  // PENDING
+}
+
+@Then("\"third\" should be on top of the stack")
+@Pending
+public void thenthirdShouldBeOnTopOfTheStack() {
+  // PENDING
+}
+
+@Then("the stack should be full")
+@Pending
+public void thenTheStackShouldBeFull() {
+  // PENDING
+}
+
+
+

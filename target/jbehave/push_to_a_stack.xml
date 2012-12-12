@@ -1,0 +1,109 @@
+<story path="push_to_a_stack.story" title="Feature:                                                                                                                                                     
+In order to store values
+As a user
+I want to put items on the stack">
+<scenario keyword="Scenario:" title="Push to an empty stack">
+<step outcome="pending" keyword="PENDING">Given an empty stack with capacity 2</step>
+<step outcome="pending" keyword="PENDING">When I push &quot;first&quot; to a stack</step>
+<step outcome="pending" keyword="PENDING">Then &quot;first&quot; should be on top of the stack</step>
+<pendingMethod>@Given(&quot;an empty stack with capacity 2&quot;)
+@Pending
+public void givenAnEmptyStackWithCapacity2() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I push \&quot;first\&quot; to a stack&quot;)
+@Pending
+public void whenIPushfirstToAStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;\&quot;first\&quot; should be on top of the stack&quot;)
+@Pending
+public void thenfirstShouldBeOnTopOfTheStack() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Push to a full stack">
+<step outcome="pending" keyword="PENDING">Given an empty stack with capacity 2</step>
+<step outcome="pending" keyword="PENDING">And &quot;first&quot; pushed on the stack</step>
+<step outcome="pending" keyword="PENDING">And &quot;second&quot; pushed on the stack</step>
+<step outcome="pending" keyword="PENDING">When I push &quot;third&quot; to a stack</step>
+<step outcome="pending" keyword="PENDING">Then FullStackException should be thrown</step>
+<pendingMethod>@Given(&quot;an empty stack with capacity 2&quot;)
+@Pending
+public void givenAnEmptyStackWithCapacity2() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Given(&quot;\&quot;first\&quot; pushed on the stack&quot;)
+@Pending
+public void givenfirstPushedOnTheStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Given(&quot;\&quot;second\&quot; pushed on the stack&quot;)
+@Pending
+public void givensecondPushedOnTheStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I push \&quot;third\&quot; to a stack&quot;)
+@Pending
+public void whenIPushthirdToAStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;FullStackException should be thrown&quot;)
+@Pending
+public void thenFullStackExceptionShouldBeThrown() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Push to nonempty and non full stack">
+<step outcome="pending" keyword="PENDING">Given an empty stack with capacity 3</step>
+<step outcome="pending" keyword="PENDING">And &quot;first&quot; pushed on the stack</step>
+<step outcome="pending" keyword="PENDING">And &quot;second&quot; pushed on the stack</step>
+<step outcome="pending" keyword="PENDING">When I push &quot;third&quot; to a stack</step>
+<step outcome="pending" keyword="PENDING">Then &quot;third&quot; should be on top of the stack</step>
+<step outcome="pending" keyword="PENDING">And the stack should be full</step>
+<pendingMethod>@Given(&quot;an empty stack with capacity 3&quot;)
+@Pending
+public void givenAnEmptyStackWithCapacity3() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Given(&quot;\&quot;first\&quot; pushed on the stack&quot;)
+@Pending
+public void givenfirstPushedOnTheStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Given(&quot;\&quot;second\&quot; pushed on the stack&quot;)
+@Pending
+public void givensecondPushedOnTheStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I push \&quot;third\&quot; to a stack&quot;)
+@Pending
+public void whenIPushthirdToAStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;\&quot;third\&quot; should be on top of the stack&quot;)
+@Pending
+public void thenthirdShouldBeOnTopOfTheStack() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;the stack should be full&quot;)
+@Pending
+public void thenTheStackShouldBeFull() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

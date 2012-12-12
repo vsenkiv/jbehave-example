@@ -1,0 +1,5 @@
+Przykładowa aplikacja wykorzstująca podejście BDD w języku Java w środowisku Eclipse.
+Autor: Jakub Kosiński (ja@ghandal.net)
+
+Poszczególne kroki implementacji aplikacji opisane są w pliku CHANGELOG.
+Dla każdej wersji utworzony został tag.
